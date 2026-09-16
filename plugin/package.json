@@ -1,48 +1,5 @@
 {
-  "name": "@theangrypit/openclaw-wiki-gbrain",
-  "version": "0.1.0",
+  "name": "owg-u8-verify-mirror-a1e0",
   "private": true,
-  "description": "Closes the GBrain gap on top of OpenClaw memory-wiki (tools/cron only)",
-  "type": "module",
-  "license": "MIT",
-  "main": "./dist/index.js",
-  "exports": {
-    ".": "./dist/index.js"
-  },
-  "files": [
-    "dist",
-    "openclaw.plugin.json",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
-  },
-  "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "typebox": "^1.0.0"
-  },
-  "peerDependencies": {
-    "openclaw": ">=2026.3.24-beta.2"
-  },
-  "peerDependenciesMeta": {
-    "openclaw": {
-      "optional": true
-    }
-  },
-  "devDependencies": {
-    "@types/node": "^26.6.0",
-    "typescript": "^5.8.2"
-  },
-  "openclaw": {
-    "extensions": [
-      "./dist/index.js"
-    ],
-    "compat": {
-      "pluginApi": ">=2026.3.24-beta.2",
-      "minGatewayVersion": ">=2026.3.24-beta.2"
-    }
-  }
+  "description": "ephemeral — delete me"
 }

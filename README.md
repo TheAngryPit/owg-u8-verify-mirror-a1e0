@@ -1,2 +1,3 @@
-# owg-u8-verify-mirror-a1e0
-temp mirror for verify-owg only
+# ephemeral
+
+Temporary mirror used for Cloud Agent verify materialization. Safe to delete.
