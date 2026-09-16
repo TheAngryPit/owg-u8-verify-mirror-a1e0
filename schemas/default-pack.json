@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-wiki-default",
+  "version": "0.1.0",
+  "description": "Aligns with memory-wiki vault folders",
+  "page_types": [
+    { "type": "entity", "path_prefixes": ["entities/"], "extractable": true },
+    { "type": "concept", "path_prefixes": ["concepts/"], "extractable": true },
+    { "type": "synthesis", "path_prefixes": ["syntheses/"], "extractable": false },
+    { "type": "source", "path_prefixes": ["sources/"], "extractable": true },
+    { "type": "report", "path_prefixes": ["reports/"], "extractable": false }
+  ],
+  "link_verbs": [
+    "related-to",
+    "collaborates-with",
+    "works-at",
+    "owns",
+    "mentions",
+    "derived-from",
+    "contradicts"
+  ]
+}
